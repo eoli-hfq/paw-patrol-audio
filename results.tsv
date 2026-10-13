@@ -1,3 +1,4 @@
 timestamp	commit	skill	old_score	new_score	status	dimension	note	eval_mode
 2026-10-13T11:35	baseline	paw-patrol-audio	-	54.8	baseline	-	初始评估;dim3/4/9近零;runtime_scan=0;dim8=with_skill_vs_baseline	full_test
 2026-10-13T11:40	61aea2a	paw-patrol-audio	54.8	3-0 better	keep	dim3	新增失败模式与fallback表(6条三段式)	paired
+2026-10-13T11:45	64aa675	paw-patrol-audio	-	3-0 better	keep	dim4	生成流程前置🔴CHECKPOINT三类触发;slight多数但目标为整块缺失维度故继续	paired
