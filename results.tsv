@@ -1,0 +1,2 @@
+timestamp	commit	skill	old_score	new_score	status	dimension	note	eval_mode
+2026-10-13T11:35	baseline	paw-patrol-audio	-	54.8	baseline	-	初始评估;dim3/4/9近零;runtime_scan=0;dim8=with_skill_vs_baseline	full_test
