@@ -4,3 +4,4 @@ timestamp	commit	skill	old_score	new_score	status	dimension	note	eval_mode
 2026-10-13T11:45	64aa675	paw-patrol-audio	-	3-0 better	keep	dim4	生成流程前置🔴CHECKPOINT三类触发;slight多数但目标为整块缺失维度故继续	paired
 2026-10-13T11:50	beada3e	paw-patrol-audio	-	3-0 better	keep	dim9	新增反例与黑名单9条;clear多数	paired
 2026-10-13T11:55	af69281	paw-patrol-audio	-	3-0 better	keep	dim5	去软化措辞+结尾音效/顿词收紧+参数条件化	slight多数	paired
+2026-10-13T12:00	1b5f58a	paw-patrol-audio	-	3-0 better	keep	dim2	生成流程每步补输入/输出契约+小队模式	slight多数;HL-4连续2轮slight收手	paired
