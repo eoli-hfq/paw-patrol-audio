@@ -13,7 +13,30 @@
 
 主角名默认 **诺诺**，可在指定后于全文替换，句式保持不变。
 
-## 二、使用方式（推荐工作流）
+## 二、安装与使用（推荐工作流）
+
+### 安装
+
+本技能是标准 Agent Skill（核心文件为 `SKILL.md`），任选一种方式安装：
+
+**方式一：skills CLI（推荐）**
+
+```bash
+npx skills add eoli-hfq/paw-patrol-audio        # 项目级安装
+npx skills add eoli-hfq/paw-patrol-audio -g -y  # 全局安装并跳过确认
+npx skills update                               # 后续更新
+```
+
+**方式二：手动克隆**
+
+```bash
+git clone https://github.com/eoli-hfq/paw-patrol-audio.git \
+  ~/.config/opencode/skills/paw-patrol-audio
+```
+
+项目级安装可放到 `<项目>/.opencode/skills/paw-patrol-audio/`。安装后重启 opencode 生效；首次安装会计入 skills.sh 匿名统计，使本技能可被 `npx skills find paw patrol` 检索到。
+
+### 使用流程
 
 本技能的典型使用流程：
 
@@ -124,8 +147,6 @@ paw-patrol-audio/
 ├── SKILL.md                    # 技能主文件：角色库、格式规则、流程、反例
 ├── references/
 │   └── audio-cases.md          # 6 个完整参考案例（单角色 / 小队 / 全角色）
-├── test-prompts.json           # 测试场景（全角色 / 单角色 / 歧义场景）
-├── results.tsv                 # 技能优化评估记录
 └── README.md                   # 本文件
 ```
 
